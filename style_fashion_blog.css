@@ -1,0 +1,451 @@
+body::-webkit-scrollbar{
+  width: 10px ;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: gray ; 
+  border-radius: 100rem ; 
+}
+body::-webkit-scrollbar-track{
+   background-color: black ;
+}
+*{
+  margin: 0 ; 
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+div.header{
+  background-color: black ;
+  width: 100% ;
+  height: 4.45% ; 
+}
+div.social{
+  display: flex  ;
+  position: absolute ;
+  align-items: center ;
+}
+div.icon{
+  padding-top: 2px ;
+}
+i{
+  color: white ; 
+}
+div.title{
+  width: 100% ;
+  height: 30% ;
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+}
+div.content_title>h1{
+  text-transform: capitalize ;
+  font-size: 50px ;
+  font-weight: bold ;
+  font-family: "Oswald" ;
+}
+div.contain_quote{
+  display: flex ;   
+}
+p.title_p2{
+  font-family: "Oswald" ;
+  background-color: black ;
+  color: white ;  
+  margin-left: 10px ;
+  letter-spacing: 1px ;
+  padding-left: 5px ;
+  padding-right: 5px ;
+} 
+p.p.title_p1{
+  letter-spacing: 1px ;
+  white-space: 1px ;
+}
+.background_content{
+  background-image: url("background_content.jpg");
+  background-position: center ;
+  background-size: cover ;
+  background-repeat: no-repeat ;    
+  width: 100% ;
+  height: 1060px ;
+}
+.background_content_component_1{
+  padding-top: 20% ;
+}
+p.p1,p.p2{
+  color: white ; 
+  font-family: "Oswald" ;
+  margin-left: 30px ;       
+}
+p.p1{
+  font-size: 40px ;
+  letter-spacing: 5px ;
+}
+p.p2{
+  font-size: 80px ;
+  font-weight: bold ;
+  text-transform: uppercase ;   
+}
+div.background_content_component_2>button{
+  color: white ; 
+  font-family: "Oswald" ;
+  background-color: rgba(223, 190, 190, 0.4) ;
+  padding: 10px 30px 10px 30px ;
+  margin-left: 30px ;   
+  letter-spacing: 2px ; 
+}
+div.background_content_component_2>button:hover{
+  background-color: rgba(255, 255, 255, 0.057) ;
+}
+a{
+  text-decoration: none ;
+  text-transform: capitalize ;
+}
+div#post_comment{
+  background-color: rgba(145, 120, 120, 0.116);
+  padding: 20px 20px 20px 20px ; 
+  display: flex ;
+  padding-left: 40px ;
+  padding-right: 40px ; 
+}
+div#post_comment>div.component_1{
+  width: 90% ;
+  height: auto ;
+}
+div#post_comment>div.component_2{
+  margin-left: 2.5% ;
+  width: 33% ;
+  height: auto ;
+}
+.post{
+  padding: 30px ;     
+  margin-bottom: 50px ;
+  background-color: white;
+}
+div.story_telling>div.heading{
+  display: block ; 
+  text-align: center ;
+  font-family: "Oswald";
+}
+div.story_telling>div.heading>h1{
+  text-transform: uppercase ;
+  padding-top: 0;
+  margin-top: 0;
+  font-size: 30px ;
+}
+div.span>span{
+  font-size: 25px ;
+}
+div.span>span.span1{
+  font-weight: none ;
+}
+div.span>span.span2{
+  font-weight: none ;
+  color: rgb(180, 133, 133) ;
+}
+div.heading>img{
+  padding-top: 20px ;
+  width: 100% ;
+  height: auto ;  
+}
+div.story{
+  font-size: 15px ;
+  padding-top: 40px ; 
+  letter-spacing: 0;
+  word-spacing: 2px ;
+}
+span.strong{
+  font-weight: bold ; 
+  text-indent: 30px ;   
+}
+div.story>span.end{
+  padding-bottom: 0 ;   
+}
+div.wrapper_all_button{
+  padding-top: 20px ; 
+  display: flex ;
+  justify-content:space-between ;
+}
+div.like_button>button{
+  padding: 10px ;
+  padding-top: 5px ; 
+  padding-bottom: 5px ;     
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  background-color: white ;
+}
+div.like_button>button:hover{
+  background-color: rgb(160, 129, 83);
+}
+div.wrapper_all_button>div.like_button>button>i{
+  color: black ; 
+}
+div.wrapper_all_button>div.like_button>button>p{
+  padding-left: 6px ; 
+}
+div.replies>button{
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  background-color: black ;
+  padding: 5px 10px 5px 10px ;
+  color : white  ;
+}
+div.replies>button:hover{
+  background-color: rgb(81, 62, 32);
+}
+div.numb_rep{
+  background-color: rgb(178, 162, 142) ;
+  color: black ;   
+  margin-left: 10px ;
+  width: 20px ; 
+  height: 20px ; 
+}
+div.numb_rep>p{
+  display: flex ;   
+  align-items: center ;
+  justify-content: center ;
+}
+.comment{
+  display: flex ;
+}
+.comment_line{
+  margin-left: 20px ;
+  font-family: "Oswald";    
+  display: flex ;
+  justify-content: center ;
+  align-items: center ;
+  word-spacing: 3px ;
+  letter-spacing: 0.5px ;
+  max-width: 500px ;
+}
+div.fst>span.name{
+  font-size: 25px ;
+}
+div.fst>span.date{
+  color:rgb(178, 162, 142) ;
+}
+div.comment_2{
+  margin-top: 20px ; 
+}
+div.end_bar{
+  padding-top: 10px ;
+  padding-bottom: 10px ;
+  background-color: rgba(9, 52, 52, 0.767) ;
+  display: flex ;
+  align-items: center ;
+  justify-content: space-around;
+}
+div.end_bar>div.first,div.end_bar>div.second,div.end_bar>div.thirst{
+  color: rgb(251, 251, 251) ;
+}
+div.end_bar>button>a{
+  display: flex ; 
+  background-color: black;  
+  color: rgb(255, 255, 255) ;
+  justify-content: center ;
+  align-items: center ;
+  padding-left: 10px ; 
+  padding-right: 10px ;
+  padding-top: 3px ;
+  padding-bottom: 3px ;
+}
+div.end_bar>button>a:hover{
+  background-color: rgba(63, 50, 34, 0.272) ;
+}
+div.introduction>img{
+  width: 100% ;
+  height: 6% ;
+}
+div.introduction>div.content_cpn2{
+  font-family: "Oswald";
+  padding: 20px ;
+  color: white ;
+  background-color: black ;
+}
+.popular_post{
+  background-color: white ;
+  margin-top: 50px ;
+}
+div.popular_post>h1.thumbnail{
+  padding-left: 20px ;
+  font-family: "Oswald";
+  background-color: black ;
+  color: white ; 
+  margin-top: 0 ;
+  padding-bottom: 10px ; 
+}
+div.popular_post>div.user>img{
+  max-width: 18% ;
+  max-height: 18% ;
+}
+div.user{
+  font-family: "Oswald";
+  display: flex ;
+  align-items: center ;
+  margin: 20px ;
+  padding-bottom: 20px  ;
+}
+div.infor_user:hover{
+  background-color: rgba(56, 42, 22, 0.064);
+}
+div.infor_user>h2{
+  padding: 0 ; 
+  margin: 0 ; 
+  font-size: 20px ;
+}
+div.infor_user{
+  padding-left: 20px ; 
+  width: 100% ;
+}
+.advertise{
+  margin-top: 50px ;
+  background-color: white ;
+}
+div.advertise>h1{
+  font-family: "Oswald";
+  padding-left: 20px  ;
+  background-color: black ;
+  color: white ;
+  margin: 0 ;
+}
+div.advertise>img{
+  padding: 20px ; 
+  width: 100% ;
+  height: 10% ;
+}
+div.tags{
+  margin-top: 50px ; 
+} 
+div.tags>h1.thumbnail{
+  font-family: "Oswald";
+  margin: 0 ; 
+  padding-left : 20px ; 
+  background-color: black ;
+  color: white ; 
+}
+div.block_tags{
+  padding: 20px ; 
+  background-color: white;
+  padding-bottom: 0 ; 
+}
+div.block_tags>button{
+  background-color: white ;
+  margin-right: 5px ; 
+  margin-bottom: 10px ; 
+  padding: 2px ;
+  padding-left: 5px ;
+  padding-right: 5px ; 
+}
+div.block_tags>button.fst{
+  background-color: black ;
+  color: white ; 
+}
+div.inspiration{
+  margin-top: 50px ; 
+  }
+h1.thumbnail{
+  font-family: "Oswald";
+  margin: 0 ;
+  padding-left: 20px ;
+  background-color: black ;
+  color: white ;  
+}
+.wrapper_ins{
+  padding: 20px ;
+  background-color: white ;
+}
+div.first_one,div.second_one{
+  width: 100%; 
+  display: flex ;
+}
+div.first_one{
+  padding-bottom: 3% ;  
+}
+div.first_one>img,div.second_one>img{
+  width: 50%  ;
+  height: 10% ;
+}
+div.follow_me{
+  margin-top: 50px ; 
+}
+div.wrapping_all_icon{
+  background-color: white ;
+  display: flex ;
+  justify-content: space-around ;
+  align-items: center ;
+  width: 100%;
+}
+div.wrapping_all_icon>i{
+  padding: 20px ; 
+  color: black ; 
+}
+div.subscribe{
+  margin-top: 50px ; 
+}
+form.container{
+  padding: 20px ; 
+  background-color: white   ;
+}
+form.container>label{
+  font-family: "Oswald";
+  letter-spacing: 1px ;
+  word-spacing: normal ;
+}
+form.container>input,form.container>button{
+  margin-top: 10px ;
+  width: 100% ;
+}
+form.container>button{
+  background-color: rgb(189, 20, 20);
+  color: white ; 
+  padding-top: 5px ; 
+  padding-bottom: 5px ; 
+}
+form.container>input{
+  text-indent: 20px ;
+}
+div.block_main{
+  width: 100% ;
+  height: 100% ; 
+  display: none ; 
+  text-indent: 20px ; 
+  word-spacing: 20px ;
+  padding-left: 20px ; 
+  margin-left: 20px ; 
+}
+@media only screen and ( max-width : 700px ) {
+  .hide-on-mobile,div.comment{
+    display: none !important ;
+  }
+  div.component_1,div.component_2,div.wrapper_ins{
+    width: 100% !important ;
+  } 
+  div#post_comment{
+    display: block ;
+  }
+  div.story>span.end,div.story>p{
+    font-size: 11px ;
+  }
+  div.introduction>img{
+    width: 100% ;
+    height: 30% ;
+  }
+  div.advertise>img{
+    width: 100% ;
+    height: 30% ;
+  }
+  div.wrapper_ins{
+    margin: 0 ;
+    padding: 0 ; 
+  }
+  div.wrapper_ins>img{
+    width: 45% !important;
+    height: 13% !important;
+  }
+  .background_content{
+    height: 71% ;
+  }
+  div.end_bar{
+    display: none ;
+  } 
+}  
+
